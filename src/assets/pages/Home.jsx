@@ -8,10 +8,10 @@ import PhotoGallery from "../components/PhotoGallery";
 import ServiceIPTV from "../components/ServiceIPTV";
 import Draw from "../components/draw";
 import AlertSection from "../components/AlertSection";
+import ContentInfo from "../components/ContentInfo";
 import { Button } from "react-bootstrap";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import ContentInfo from "../components/contentInfo";
 
 const Home = () => {
   const [isFloating, setIsFloating] = useState(false);

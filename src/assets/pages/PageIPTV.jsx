@@ -2,7 +2,6 @@ import React from "react";
 import ServiceIPTV from "../components/ServiceIPTV";
 import Differential from "../components/Differential";
 import Draw from "../components/draw";
-import ContactInfo from "../components/contentInfo";
 
 const PageIPTV = () => {
   return (
@@ -16,7 +15,6 @@ const PageIPTV = () => {
       <ServiceIPTV />
       <Draw />
       <Differential />
-      <ContactInfo />
     </>
   );
 };

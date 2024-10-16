@@ -1,9 +1,7 @@
 import React from "react";
 import PhotoGallery from "../components/PhotoGallery";
-
 import Differential from "../components/Differential";
 import ContentAbout from "../components/ContentAbout";
-import ContentInfo from "../components/contentInfo";
 
 const PageAboutUs = () => {
   return (
@@ -17,7 +15,6 @@ const PageAboutUs = () => {
       <ContentAbout />
       <PhotoGallery />
       <Differential />
-      <ContentInfo />
     </>
   );
 };
