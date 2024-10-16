@@ -53,6 +53,7 @@ const NavBar = () => {
           placement="end"
           show={sidebarOpen}
           onHide={() => setSidebarOpen(false)}
+          style={{ backgroundColor: "#0557b3" }}
         >
           <Offcanvas.Header closeButton></Offcanvas.Header>
           <Offcanvas.Body>
