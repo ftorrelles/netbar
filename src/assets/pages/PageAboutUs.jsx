@@ -3,7 +3,7 @@ import PhotoGallery from "../components/PhotoGallery";
 
 import Differential from "../components/Differential";
 import ContentAbout from "../components/ContentAbout";
-import ContactInfo from "../components/contentInfo";
+import ContentInfo from "../components/contentInfo";
 
 const PageAboutUs = () => {
   return (
@@ -17,7 +17,7 @@ const PageAboutUs = () => {
       <ContentAbout />
       <PhotoGallery />
       <Differential />
-      <ContactInfo />
+      <ContentInfo />
     </>
   );
 };

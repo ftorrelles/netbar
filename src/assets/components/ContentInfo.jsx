@@ -9,7 +9,7 @@ import {
 } from "react-icons/fa";
 import "../styles/info.css";
 
-const ContactInfo = () => {
+const ContentInfo = () => {
   return (
     <Container fluid className="elegant-contact-section py-5">
       <Row className="justify-content-center text-center mb-5">
@@ -81,4 +81,4 @@ const ContactInfo = () => {
   );
 };
 
-export default ContactInfo;
+export default ContentInfo;
