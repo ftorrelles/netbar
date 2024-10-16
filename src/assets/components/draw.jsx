@@ -13,8 +13,9 @@ const Draw = () => {
             </h2>
             <p className="sorteo-description">
               Cada mes puedes ganar increíbles premios participando en nuestros
-              sorteos exclusivos para clientes. ¡Solo paga en divisa, obtén tu
-              ticket y asiste al evento!
+              sorteos exclusivos para clientes. puedes obtener un ticket al
+              pagar tu factura en divisa o tambien puedes obtener otro ticket al
+              referenciar el servicio.
             </p>
           </Col>
         </Row>
@@ -28,8 +29,8 @@ const Draw = () => {
               />
               <h3>1. Obtén tu Ticket</h3>
               <p>
-                Al pagar en divisa en nuestra oficina, recibirás un ticket con
-                tu nombre para participar.
+                Al pagar en divisa en nuestra oficina, o dar una referencia
+                efectiva estaras participando.
               </p>
             </div>
           </Col>

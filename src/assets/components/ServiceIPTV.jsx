@@ -10,7 +10,7 @@ const ServiceIPTV = () => {
           <Col md={6} className="iptv-text">
             <h2 className="iptv-title">Servicio IPTV, InterwirelessTV</h2>
             <p className="iptv-description">
-              Disfruta de una aplia variedad de canales de TV en vivo,
+              Disfruta de una amplia variedad de canales de TV en vivo,
               peliculas, series, con rendimiento optimizado.{" "}
               <strong>
                 con nuevos canales y contenido agregados frecuentemente.
@@ -19,13 +19,13 @@ const ServiceIPTV = () => {
             </p>
             <p className="iptv-highlights">
               Disponible para <strong>Smart TVs</strong>,{" "}
-              <strong>teléfonos inteligentes</strong>, y{" "}
-              <strong>tablets</strong>. ¡Sintoniza tus programas favoritos donde
+              <strong>Teléfonos Inteligentes</strong>, y{" "}
+              <strong>Tablets</strong>. ¡Sintoniza tus programas favoritos donde
               quieras!
             </p>
             <div className="iptv-button">
               <Button
-                href="https://wa.me/584120626775"
+                href="https://wa.me/584243241423"
                 target="_blank"
                 variant="light"
               >

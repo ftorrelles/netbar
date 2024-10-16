@@ -50,7 +50,10 @@ const ContentInfo = () => {
             <FaMapMarkerAlt size={40} className="contact-icon" />
             <div>
               <h5>Dirección</h5>
-              <p>Avenida Principal El macaro, Aragua, Venezuela</p>
+              <p>
+                Av Principal El Macaro al lado del hotel el Saman, Local 2,
+                Aragua.
+              </p>
             </div>
           </div>
         </Col>

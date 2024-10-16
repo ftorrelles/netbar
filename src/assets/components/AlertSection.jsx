@@ -8,11 +8,11 @@ const AlertSection = () => {
       <Alert variant="warning" className="alert-custom">
         <h4>🚨 Aviso Importante 🚨</h4>
         <p>
-          Si estás utilizando un router de 1 banda (2.4 GHz), es posible que no
-          estés recibiendo las actualizaciones necesarias. Esto puede afectar tu
-          experiencia de conexión. Te recomendamos reiniciar tu router (no
-          resetear) cada 2 días durante 2 minutos para liberar memoria y mejorar
-          su rendimiento.
+          Si estás utilizando un router de 1 banda (2.4 GHz), te recomendamos
+          cambiar tu equipo a 5G, es posible que no estés recibiendo las
+          actualizaciones necesarias. Esto puede afectar tu experiencia de
+          conexión. Tambien recuerda reiniciar tu router (no resetear) cada 2
+          días durante 2 minutos para liberar memoria y mejorar su rendimiento.
         </p>
 
         <p>
