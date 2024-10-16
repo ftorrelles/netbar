@@ -1,0 +1,67 @@
+:root {
+  --color-base: #ff533d;
+  --color-secundary: #0557b3;
+  --color-black: #000000;
+  --color-light: #f9f7f7;
+}
+.container_about {
+  display: flex;
+  height: 80vh;
+}
+.div_img_about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.floating-img {
+  animation: float 6s ease-in-out infinite;
+}
+
+.div_info_about p,
+h2 {
+  color: var(--navi-blue);
+}
+
+@keyframes float {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  50% {
+    transform: translate(0px, 20px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+
+.div_info_about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+/* ---- media query----- */
+@media (max-width: 992px) {
+  .container_about {
+    padding-bottom: 2rem;
+  }
+}
+
+/* Estilos para versión de tablet */
+@media (max-width: 768px) {
+  .div_info_about {
+    padding: 2rem;
+    gap: 1rem;
+  }
+}
+
+/* syles modal */
+
+.modal-color .modal-content {
+  background-color: var(--navi-blue);
+  color: var(--eggshell);
+}
+.modal-color .modal-header .btn-close {
+  background-color: white;
+}

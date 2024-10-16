@@ -1,0 +1,45 @@
+:root {
+  --color-base: #ff533d;
+  --color-secundary: #0557b3;
+  --color-black: #000000;
+  --color-light: #f9f7f7;
+}
+
+.home {
+  margin: 0 0 1rem 0;
+}
+
+.home .carousel {
+  max-height: 100vh;
+  max-width: 100%;
+}
+
+.home .carousel-item img {
+  height: 100vh;
+  object-fit: cover;
+}
+
+.text-container {
+  color: var(--color-light);
+  position: absolute;
+  top: 50%;
+  right: 6rem;
+  transform: translateY(-50%);
+  text-align: center;
+  padding: 2rem;
+  width: 40%;
+}
+
+.home .carousel-inner .carousel-item {
+  transition: transform 2s ease-in-out;
+}
+
+@media only screen and (max-width: 992px) {
+  .text-container {
+    top: 30%;
+    left: 50%;
+    width: 70%;
+    transform: translate(-50%, -50%);
+    padding: 1.5rem;
+  }
+}

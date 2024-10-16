@@ -1,0 +1,13 @@
+.alert-section {
+  width: 100%; /* Toma todo el ancho de la pantalla */
+  padding: 20px;
+  background-color: #f8c74f; /* Color de fondo amarillo */
+  color: #000; /* Color del texto */
+  border-radius: 8px; /* Bordes redondeados */
+  margin: 20px 0; /* Margen superior e inferior */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+.alert-custom {
+  font-size: 1.1rem; /* Aumenta el tamaño de la fuente */
+}

@@ -1,0 +1,28 @@
+/* Fondo oscuro para el modal */
+.modal-dark .modal-content {
+  background-color: #343a40; /* Color de fondo oscuro */
+  color: #fff; /* Texto blanco */
+  border: none;
+}
+
+/* Estilo para el header */
+.modal-header-dark {
+  background-color: #23272b; /* Color más oscuro para el header */
+  border-bottom: none;
+}
+
+/* Estilo para el cuerpo del modal */
+.modal-body-dark {
+  background-color: #343a40;
+}
+
+/* Estilo para el footer */
+.modal-footer-dark {
+  background-color: #23272b;
+  border-top: none;
+}
+
+/* Cambia el color del botón de cerrar (X) */
+.modal-header-dark .btn-close {
+  filter: invert(1); /* Hace que el icono de cerrar sea blanco */
+}

@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+:root {
+  --color-base: #ff533d;
+  --color-secundary: #0557b3;
+  --color-black: #000000;
+  --color-light: #f9f7f7;
+  --color-modal-dark: #000000be;
+  --color-modal-light: #ffffffbe;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* ul {
+  list-style: none;
+} */
+a {
+  text-decoration: none;
+  color: white;
+}
+img {
+  max-width: 100%;
+}
+
+/*--- floating buttons ---*/
+
+.floating-button {
+  margin: 20px;
+  border: none;
+  font-size: 20px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.floating-button-container.floating {
+  animation-name: float;
+  animation-duration: 0.9s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes float {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-10px);
+  }
+}
