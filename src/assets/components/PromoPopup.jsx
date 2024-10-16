@@ -42,7 +42,7 @@
 
 import React, { useState, useEffect } from "react";
 import { Modal, Button } from "react-bootstrap";
-import "../styles/PromoPopup.css"; // Importa el archivo CSS para estilos personalizados
+import "../styles/promopopup.css"; // Importa el archivo CSS para estilos personalizados
 
 const PromoPopup = () => {
   const [show, setShow] = useState(false);
