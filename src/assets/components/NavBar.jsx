@@ -4,7 +4,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
-import "../styles/navBar.css";
+import "../styles/navbar.css";
 
 const NavBar = () => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
