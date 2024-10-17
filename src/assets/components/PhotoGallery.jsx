@@ -75,9 +75,9 @@ const PhotoGallery = () => {
         <div className="photo-gallery-slide">
           <img src="/gallery7.png" />
         </div>
-        <div className="photo-gallery-slide">
+        {/* <div className="photo-gallery-slide">
           <img src="/gallery8.png" />
-        </div>
+        </div> */}
         <div className="photo-gallery-slide">
           <img src="/gallery9.png" />
         </div>
