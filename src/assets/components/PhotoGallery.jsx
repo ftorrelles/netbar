@@ -55,7 +55,7 @@ const PhotoGallery = () => {
       </h2>
       <Slider {...settings}>
         <div className="photo-gallery-slide">
-          <img src="/gallery1.png" />
+          <img src="/gallery1.png" alt="gallery1" />
         </div>
         <div className="photo-gallery-slide">
           <img src="/gallery2.png" />

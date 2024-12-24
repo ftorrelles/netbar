@@ -54,7 +54,7 @@ const Differential = () => {
                 ref={ref}
               >
                 <Card.Body>
-                  <i class="bx bxs-check-square"></i>
+                  <i className="bx bxs-check-square"></i>
                   <Card.Title>Equipos de Última Generación</Card.Title>
                   <Card.Text>
                     Usamos ONU WIFI doble banda (5G) y equipos avanzados que
@@ -74,7 +74,7 @@ const Differential = () => {
                 ref={ref}
               >
                 <Card.Body>
-                  <i class="bx bxs-timer"></i>
+                  <i className="bx bxs-timer"></i>
                   <Card.Title>
                     Atención Inmediata y Compromiso con la Comunidad
                   </Card.Title>
