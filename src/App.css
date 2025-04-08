@@ -7,6 +7,7 @@
   --color-light: #f9f7f7;
   --color-modal-dark: #000000be;
   --color-modal-light: #ffffffbe;
+  --transparent-color: rgba(255, 255, 255, 0.6);
 }
 * {
   margin: 0;
@@ -25,6 +26,14 @@ a {
 img {
   max-width: 100%;
 }
+/* icono whatsapp */
+.bxl-whatsapp-square {
+  color: #25d366;
+  font-size: 5rem;
+}
+.floating-logo {
+  animation: float 6s ease-in-out infinite;
+}
 
 /*--- floating buttons ---*/
 
@@ -34,12 +43,12 @@ img {
   font-size: 20px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
   cursor: pointer;
-  transition: transform 0.2s ease-in-out;
+  transition: transform 0.6s ease-in-out;
 }
 
 .floating-button-container.floating {
   animation-name: float;
-  animation-duration: 0.9s;
+  animation-duration: 0, 10s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
 }

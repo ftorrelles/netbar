@@ -32,16 +32,15 @@ const Home = () => {
         <Carousel indicators={false} fade>
           <Carousel.Item>
             <picture>
-              <source media="(min-width: 992px)" srcSet="/5(2).png" />
-              <source media="(max-width: 991px)" srcSet="/2(2).png" />
+              <source media="(min-width: 992px)" srcSet="/newhome1.png" />
+              <source media="(max-width: 991px)" srcSet="/newhome1mobile.png" />
               <img
                 className="d-block w-100"
-                src="/8(1).png"
+                src="/newhome1.png"
                 alt="first slide"
               />
             </picture>
             <div className="text-container">
-              <img src="/4(1)" alt="" />
               <h3>
                 <strong>Conexión Fibra Óptica, Internet para todos.</strong>
               </h3>
@@ -63,11 +62,11 @@ const Home = () => {
           </Carousel.Item>
           <Carousel.Item>
             <picture>
-              <source media="(min-width: 992px)" srcSet="/home3.png" />
-              <source media="(max-width: 991px)" srcSet="/home2(1).png" />
+              <source media="(min-width: 992px)" srcSet="/newhome2.png" />
+              <source media="(max-width: 991px)" srcSet="/newhome2mobile.png" />
               <img
                 className="d-block w-100"
-                src="/7(1).png"
+                src="/newhome2.png"
                 alt="Second slide"
               />
             </picture>

@@ -67,9 +67,10 @@ const NavBar = () => {
               >
                 <p>Servicios de internet</p>
               </Nav.Link>
+
               <Nav.Link
                 as={Link}
-                to="/serviceIPTV"
+                to="/PageIPTV"
                 style={{
                   color: "#f9f7f7",
                 }}
@@ -78,12 +79,12 @@ const NavBar = () => {
               </Nav.Link>
               <Nav.Link
                 as={Link}
-                to="/aboutUs"
+                to="/businessCard"
                 style={{
                   color: "#f9f7f7",
                 }}
               >
-                <p>Sobre nosotros</p>
+                <p>Tarjeta de presentación</p>
               </Nav.Link>
               {/* <Nav.Link
                 as={Link}
