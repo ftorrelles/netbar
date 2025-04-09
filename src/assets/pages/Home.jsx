@@ -42,7 +42,10 @@ const Home = () => {
             </picture>
             <div className="text-container">
               <h3>
-                <strong>Conexión Fibra Óptica, Internet para todos.</strong>
+                <strong>
+                  Interner Fibra Óptica, Turmero Municipio Santiago
+                  Mariño. Edo Aragua.
+                </strong>
               </h3>
               <div
                 className={`floating-button-container ${

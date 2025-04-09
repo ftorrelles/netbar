@@ -1,28 +1,117 @@
 /* Fondo oscuro para el modal */
 .modal-dark .modal-content {
-  background-color: #343a40; /* Color de fondo oscuro */
-  color: #fff; /* Texto blanco */
-  border: none;
+  background-color: var(--color-base);
+  color: #fff;
 }
 
 /* Estilo para el header */
 .modal-header-dark {
-  background-color: #23272b; /* Color más oscuro para el header */
-  border-bottom: none;
+  background-color: var(--color-base); /* Color más oscuro para el header */
+  color: var(--color-light);
 }
 
 /* Estilo para el cuerpo del modal */
 .modal-body-dark {
-  background-color: #343a40;
+  background-color: var(--color-base);
 }
 
 /* Estilo para el footer */
 .modal-footer-dark {
-  background-color: #23272b;
-  border-top: none;
+  background-color: var(--color-base);
 }
 
 /* Cambia el color del botón de cerrar (X) */
 .modal-header-dark .btn-close {
   filter: invert(1); /* Hace que el icono de cerrar sea blanco */
+}
+
+/* styles popUp */
+
+.card-popup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: var(--color-base);
+}
+
+.card-popup {
+  background-color: var(--transparent-color);
+  border-radius: 15px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+  width: 90%;
+  max-width: 400px;
+  padding: 20px;
+  text-align: center;
+}
+
+.card-popup-logo {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.card-popup-title {
+  color: var(--color-base);
+  margin: 0;
+}
+
+.card-popup-subtitle {
+  color: var(--color-base);
+  font-size: 0.9em;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.card-popup-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.icon {
+  color: var(--color-base);
+  font-size: 1.5em;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  margin-right: 10px;
+}
+
+.icon:hover {
+  color: var(--color-secundary);
+}
+
+.card-popup-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.card-popup-buttons a {
+  text-decoration: none;
+}
+.card-popup-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-modal-light);
+  color: var(--text-light);
+  border: none;
+  border-radius: 30px;
+  padding: 10px 0;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* .card-popup-button:hover {
+  background-color: var(--color-secundary);
+} */
+
+@media (min-width: 768px) {
+  .card-container {
+    padding: 0;
+  }
 }
