@@ -49,11 +49,8 @@ const ContentInfo = () => {
           <div className="contact-item">
             <FaMapMarkerAlt size={40} className="contact-icon" />
             <div>
-              <h5>Dirección</h5>
-              <p>
-                Av Principal El Macaro al lado del hotel el Saman, Local 2,
-                Aragua.
-              </p>
+              <h5>Zonas Disponibles</h5>
+              <p>El Macaro, La casona 1, la Julia y Guanarito.</p>
             </div>
           </div>
         </Col>

@@ -4,27 +4,35 @@ import { Button, Card } from "react-bootstrap";
 const ContentServices = () => {
   const services = [
     {
-      planName: "Plan Bronce",
-      speed: "60 MBPS de velocidad",
+      planName: "Plan Básico",
+      speed: "30 MBPS de velocidad",
       benefit1: "ONU WIFI doble banda (5G)",
       benefit2: "Atención inmediata",
-      pice1: "25$ (divisa en fisico)",
+      // pice1: "25$ (divisa en fisico)",
+      pice2: "22$ (bs tasa BCV)",
+    },
+    {
+      planName: "Plan Bronce",
+      speed: "100 MBPS de velocidad",
+      benefit1: "ONU WIFI doble banda (5G)",
+      benefit2: "Atención inmediata",
+      // pice1: "25$ (divisa en fisico)",
       pice2: "27$ (bs tasa BCV)",
     },
     {
       planName: "Plan Plata",
-      speed: "90 MBPS de velocidad",
+      speed: "150 MBPS de velocidad",
       benefit1: "ONU WIFI doble banda (5G)",
       benefit2: "Atención inmediata",
-      pice1: "30$ (divisa en fisico)",
+      // pice1: "30$ (divisa en fisico)",
       pice2: "32$ (bs tasa BCV)",
     },
     {
       planName: "Plan Oro",
-      speed: "120 MBPS de velocidad",
+      speed: "200 MBPS de velocidad",
       benefit1: "ONU WIFI doble banda (5G)",
       benefit2: "Atención inmediata",
-      pice1: "35$ (divisa en fisico)",
+      // pice1: "35$ (divisa en fisico)",
       pice2: "37$ (bs tasa BCV)",
     },
   ];
@@ -45,7 +53,7 @@ const ContentServices = () => {
                     <li>✔️ {service.speed}</li>
                     <li>✔️ {service.benefit1}</li>
                     <li>✔️ {service.benefit2}</li>
-                    <li>✔️ {service.pice1}</li>
+                    {/* <li>✔️ {service.pice1}</li> */}
                     <li>✔️ {service.pice2}</li>
                   </ul>
                 </Card.Text>

@@ -57,7 +57,7 @@ const Differential = () => {
                   <i className="bx bxs-check-square"></i>
                   <Card.Title>Equipos de Última Generación</Card.Title>
                   <Card.Text>
-                    Usamos ONU WIFI doble banda (5G) y equipos avanzados que
+                    Usamos ONU WIFI doble banda (5G, 6G) y equipos avanzados que
                     maximizan la velocidad de nuestra red. Con NetBar, obtienes
                     calidad tanto en conexión como en tecnología
                   </Card.Text>

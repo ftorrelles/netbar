@@ -43,6 +43,22 @@ const PhotoGallery = () => {
     ],
   };
 
+  const gallery = [
+    { name: "gallery1", src: "/gallery1.png" },
+    { name: "gallery2", src: "/gallery2.png" },
+    { name: "gallery3", src: "/gallery3.png" },
+    { name: "gallery5", src: "/gallery5.png" },
+    { name: "gallery6", src: "/gallery6.png" },
+    { name: "gallery7", src: "/gallery7.png" },
+    { name: "gallery9", src: "/gallery9.png" },
+    { name: "gallery13", src: "/gallery13.png" },
+    { name: "gallery14", src: "/gallery14.png" },
+    { name: "gallery15", src: "/gallery15.png" },
+    { name: "gallery16", src: "/gallery16.png" },
+    { name: "gallery17", src: "/gallery17.png" },
+    { name: "gallery18", src: "/gallery18.png" },
+  ];
+
   return (
     <div className="photo-gallery-container">
       <h2
@@ -54,33 +70,11 @@ const PhotoGallery = () => {
         Nuestra galería
       </h2>
       <Slider {...settings}>
-        <div className="photo-gallery-slide">
-          <img src="/gallery1.png" alt="gallery1" />
-        </div>
-        <div className="photo-gallery-slide">
-          <img src="/gallery2.png" />
-        </div>
-        <div className="photo-gallery-slide">
-          <img src="/gallery3.png" />
-        </div>
-        <div className="photo-gallery-slide">
-          <img src="/gallery4.png" />
-        </div>
-        <div className="photo-gallery-slide">
-          <img src="/gallery5.png" />
-        </div>
-        <div className="photo-gallery-slide">
-          <img src="/gallery6.png" />
-        </div>
-        <div className="photo-gallery-slide">
-          <img src="/gallery7.png" />
-        </div>
-        {/* <div className="photo-gallery-slide">
-          <img src="/gallery8.png" />
-        </div> */}
-        <div className="photo-gallery-slide">
-          <img src="/gallery9.png" />
-        </div>
+        {gallery.map((item, index) => (
+          <div className="photo-gallery-slide" key={index}>
+            <img src={item.src} alt={item.name} />
+          </div>
+        ))}
       </Slider>
     </div>
   );
