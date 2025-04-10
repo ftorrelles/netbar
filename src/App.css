@@ -37,7 +37,7 @@ img {
 
 /*--- floating buttons ---*/
 
-.floating-button {
+/* .floating-button {
   margin: 20px;
   border: none;
   font-size: 20px;
@@ -59,4 +59,4 @@ img {
   to {
     transform: translateY(-10px);
   }
-}
+} */

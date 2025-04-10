@@ -1,7 +1,7 @@
 import React from "react";
 import ContentServices from "../components/ContentSevices";
 import Differential from "../components/Differential";
-import Draw from "../components/draw";
+import ContentInfo from "../components/ContentInfo";
 
 const InternetService = () => {
   return (
@@ -14,7 +14,7 @@ const InternetService = () => {
       ></div>
       <ContentServices />
       <Differential />
-      <Draw />
+      <ContentInfo />
     </>
   );
 };

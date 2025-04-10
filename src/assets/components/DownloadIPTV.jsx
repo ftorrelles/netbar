@@ -6,7 +6,7 @@ const DownloadIPTV = () => {
   // Datos del archivo APK (puedes modificarlos según tus necesidades)
   const apkData = {
     name: "interwireless_TV.apk",
-    size: "68 MB",
+    size: "64.51 MB",
     version: "1.0.0",
     downloadUrl: "/downloads/interwireless_TV.apk", // Ruta donde estará el archivo
     lastUpdated: "10/05/2023",
@@ -28,12 +28,12 @@ const DownloadIPTV = () => {
             <p>
               <strong>Tamaño:</strong> {apkData.size}
             </p>
-            <p>
+            {/* <p>
               <strong>Versión:</strong> {apkData.version}
             </p>
             <p>
               <strong>Actualizado:</strong> {apkData.lastUpdated}
-            </p>
+            </p> */}
           </div>
         </div>
 
@@ -55,10 +55,9 @@ const DownloadIPTV = () => {
         <ol>
           <li>Descarga el archivo APK haciendo clic en el botón superior</li>
           <li>
-            Ve a Configuraciones &gt; Seguridad y activa "Fuentes desconocidas"
+            Nuestros tecnicos realizaran las configuración de instalación.{" "}
           </li>
-          <li>Abre el archivo descargado para iniciar la instalación</li>
-          <li>Sigue las instrucciones en pantalla</li>
+
           <li>¡Disfruta de la aplicación!</li>
         </ol>
 

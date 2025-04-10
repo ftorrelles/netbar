@@ -12,7 +12,7 @@
 }
 
 .download-header h1 {
-  color: #25d366;
+  color: var(--color-base);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -45,7 +45,7 @@
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  background-color: #25d366;
+  background-color: var(--color-base);
   color: white;
   padding: 0.75rem 1.5rem;
   border-radius: 5px;
@@ -55,7 +55,7 @@
 }
 
 .download-button:hover {
-  background-color: #128c7e;
+  background-color: var(--color-secundary);
 }
 
 .download-instructions {

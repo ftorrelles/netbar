@@ -6,7 +6,6 @@ import Footer from "./assets/components/footer";
 import InternetService from "./assets/pages/InternetService";
 import PageIPTV from "./assets/pages/PageIPTV";
 import PromoPopup from "./assets/components/PromoPopup";
-import DownloadIPTV from "./assets/pages/DownloadIPTV";
 import BusinessCard from "./assets/pages/BusinessCard";
 
 function App() {
@@ -15,7 +14,6 @@ function App() {
       <div className="App">
         <Routes>
           <Route path="/businessCard" element={<BusinessCard />} />
-          <Route path="/downloadIPTV" element={<DownloadIPTV />} />
           <Route
             path="/"
             element={

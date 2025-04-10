@@ -1,8 +1,16 @@
 import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import "../styles/serviceiptv.css";
+import { FaDownload } from "react-icons/fa";
 
 const ServiceIPTV = () => {
+  const apkData = {
+    name: "interwireless_TV.apk",
+    size: "64.51 MB",
+    version: "1.0.0",
+    downloadUrl: "/downloads/interwireless_TV.apk", // Ruta donde estará el archivo
+    lastUpdated: "10/05/2023",
+  };
   return (
     <section className="iptv-section">
       <Container fluid className="iptv-content">
@@ -31,6 +39,15 @@ const ServiceIPTV = () => {
               >
                 Solicitar Servicio IPTV
               </Button>
+              <div className="download-actions">
+                <a
+                  href={apkData.downloadUrl}
+                  download={apkData.name}
+                  className="download-button-iptv"
+                >
+                  <FaDownload /> Descargar APK
+                </a>
+              </div>
             </div>
           </Col>
           <Col md={6} className="iptv-image">

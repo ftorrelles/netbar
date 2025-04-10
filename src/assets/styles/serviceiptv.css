@@ -42,11 +42,25 @@
   display: flex;
   display: flex;
   justify-content: center;
+  gap: 1rem;
 }
 
-/* .iptv-button:hover {
-  background-color: var(--color-black);
-} */
+.download-button-iptv {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: var(--color-base);
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.download-button-iptv:hover {
+  background-color: #ffcc00;
+}
 
 .iptv-image img {
   max-width: 100%;

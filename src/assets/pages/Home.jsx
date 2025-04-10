@@ -10,22 +10,9 @@ import Draw from "../components/draw";
 import AlertSection from "../components/AlertSection";
 import ContentInfo from "../components/ContentInfo";
 import { Button } from "react-bootstrap";
-import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 const Home = () => {
-  const [isFloating, setIsFloating] = useState(false);
-
-  useEffect(() => {
-    const intervalId = setInterval(() => {
-      setIsFloating((prevIsFloating) => !prevIsFloating);
-    }, 5000);
-
-    return () => {
-      clearInterval(intervalId);
-    };
-  }, []);
-
   return (
     <>
       <section className="home">
@@ -47,17 +34,8 @@ const Home = () => {
                   Mariño. Edo Aragua.
                 </strong>
               </h3>
-              <div
-                className={`floating-button-container ${
-                  isFloating ? "floating" : ""
-                }`}
-              >
-                <Button
-                  as={Link}
-                  variant="light"
-                  to="/contact"
-                  className="floating-button"
-                >
+              <div>
+                <Button as={Link} variant="light" to="/contact">
                   Quiero informacion
                 </Button>
               </div>
@@ -80,16 +58,11 @@ const Home = () => {
                   tu familia
                 </strong>
               </h3>
-              <div
-                className={`floating-button-container ${
-                  isFloating ? "floating" : ""
-                }`}
-              >
+              <div>
                 <Button
                   variant="light"
                   href="https://wa.me/584120626775"
                   target="_blank"
-                  className="floating-button"
                 >
                   Quiero información
                 </Button>

@@ -1,7 +1,7 @@
 import React from "react";
 import ServiceIPTV from "../components/ServiceIPTV";
-import Differential from "../components/Differential";
-import Draw from "../components/draw";
+import DownloadIPTV from "../components/DownloadIPTV";
+import ContentInfo from "../components/ContentInfo";
 
 const PageIPTV = () => {
   return (
@@ -13,8 +13,8 @@ const PageIPTV = () => {
         }}
       ></div>
       <ServiceIPTV />
-      <Draw />
-      <Differential />
+      <DownloadIPTV />
+      <ContentInfo />
     </>
   );
 };
