@@ -1,28 +1,3 @@
-// function App() {
-//   return (
-//     <>
-//       <HashRouter>
-//         <div className="App">
-//           <NavBar />
-//           <Routes>
-//             <Route path="/" element={<Home />}></Route>
-//             <Route
-//               path="/internetService"
-//               element={<InternetService />}
-//             ></Route>
-//             <Route path="/serviceIPTV" element={<PageIPTV />}></Route>
-//             <Route path="/aboutUs" element={<PageAboutUs />}></Route>
-//           </Routes>
-//           <PromoPopup />
-//           <Footer />
-//         </div>
-//       </HashRouter>
-//     </>
-//   );
-// }
-
-// export default App;
-
 import "./App.css";
 import { HashRouter, Routes, Route } from "react-router-dom";
 import Home from "./assets/pages/Home";
@@ -30,9 +5,8 @@ import NavBar from "./assets/components/NavBar";
 import Footer from "./assets/components/footer";
 import InternetService from "./assets/pages/InternetService";
 import PageIPTV from "./assets/pages/PageIPTV";
-import PageAboutUs from "./assets/pages/PageAboutUs";
 import PromoPopup from "./assets/components/PromoPopup";
-
+import DownloadIPTV from "./assets/pages/DownloadIPTV";
 import BusinessCard from "./assets/pages/BusinessCard";
 
 function App() {
@@ -40,7 +14,8 @@ function App() {
     <HashRouter>
       <div className="App">
         <Routes>
-          <Route path="/businessCard" element={<BusinessCardLayout />} />
+          <Route path="/businessCard" element={<BusinessCard />} />
+          <Route path="/downloadIPTV" element={<DownloadIPTV />} />
           <Route
             path="/"
             element={
@@ -53,7 +28,7 @@ function App() {
             path="/PageIPTV"
             element={
               <MainLayout>
-                <PageAboutUs />
+                <PageIPTV />
               </MainLayout>
             }
           />
@@ -69,11 +44,6 @@ function App() {
       </div>
     </HashRouter>
   );
-}
-
-// Layout for the Business Card page without NavBar and Footer
-function BusinessCardLayout() {
-  return <BusinessCard />;
 }
 
 // Main layout including NavBar, Home page, and Footer
@@ -104,7 +74,7 @@ function FloatingLogo() {
       }}
     >
       <a href={whatsappURL} target="_blank" rel="noopener noreferrer">
-        <i class="bx bxl-whatsapp-square"></i>
+        <i className="bx bxl-whatsapp-square"></i>
       </a>
     </div>
   );
