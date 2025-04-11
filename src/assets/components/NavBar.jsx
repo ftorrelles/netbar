@@ -84,7 +84,16 @@ const NavBar = () => {
                   color: "#f9f7f7",
                 }}
               >
-                <p>Tarjeta de presentación</p>
+                <p>Redes sociales</p>
+              </Nav.Link>
+              <Nav.Link
+                as={Link}
+                to="https://clientes.wisphub.io/accounts/login/?next=/panel/"
+                style={{
+                  color: "#f9f7f7",
+                }}
+              >
+                <p>Login</p>
               </Nav.Link>
               {/* <Nav.Link
                 as={Link}
