@@ -44,19 +44,19 @@ const PhotoGallery = () => {
   };
 
   const gallery = [
-    { name: "gallery1", src: "/gallery1.png" },
-    { name: "gallery2", src: "/gallery2.png" },
-    { name: "gallery3", src: "/gallery3.png" },
-    { name: "gallery5", src: "/gallery5.png" },
-    { name: "gallery6", src: "/gallery6.png" },
-    { name: "gallery7", src: "/gallery7.png" },
-    { name: "gallery9", src: "/gallery9.png" },
-    { name: "gallery13", src: "/gallery13.png" },
-    { name: "gallery14", src: "/gallery14.png" },
-    { name: "gallery15", src: "/gallery15.png" },
-    { name: "gallery16", src: "/gallery16.png" },
-    { name: "gallery17", src: "/gallery17.png" },
-    { name: "gallery18", src: "/gallery18.png" },
+    { name: "gallery1", src: "/gallery1.jpg" },
+    { name: "gallery2", src: "/gallery2.jpg" },
+    { name: "gallery3", src: "/gallery3.jpg" },
+    { name: "gallery5", src: "/gallery5.jpg" },
+    { name: "gallery6", src: "/gallery6.jpg" },
+    { name: "gallery7", src: "/gallery7.jpg" },
+    { name: "gallery9", src: "/gallery9.jpg" },
+    { name: "gallery13", src: "/gallery13.jpg" },
+    { name: "gallery14", src: "/gallery14.jpg" },
+    { name: "gallery15", src: "/gallery15.jpg" },
+    { name: "gallery16", src: "/gallery16.jpg" },
+    { name: "gallery17", src: "/gallery17.jpg" },
+    { name: "gallery18", src: "/gallery18.jpg" },
   ];
 
   return (

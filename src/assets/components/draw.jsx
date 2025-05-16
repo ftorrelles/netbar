@@ -23,7 +23,7 @@ const Draw = () => {
           <Col xs={12} sm={6} md={3}>
             <div className="sorteo-item">
               <img
-                src="/gallery2.png"
+                src="/gallery2.jpg"
                 alt="Obtener Ticket"
                 className="sorteo-image"
               />
@@ -37,7 +37,7 @@ const Draw = () => {
           <Col xs={12} sm={6} md={3}>
             <div className="sorteo-item">
               <img
-                src="/gallery9.png"
+                src="/gallery9.jpg"
                 alt="Asiste al Evento"
                 className="sorteo-image"
               />
@@ -51,7 +51,7 @@ const Draw = () => {
           <Col xs={12} sm={6} md={3}>
             <div className="sorteo-item">
               <img
-                src="/gallery7.png"
+                src="/gallery7.jpg"
                 alt="Gana Premios"
                 className="sorteo-image"
               />

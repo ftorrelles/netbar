@@ -51,7 +51,7 @@ const ServiceIPTV = () => {
             </div>
           </Col>
           <Col md={6} className="iptv-image">
-            <img src="/IPTV1.png" alt="IPTV service" className="img-fluid" />
+            <img src="/IPTV1.jpg" alt="IPTV service" className="img-fluid" />
           </Col>
         </Row>
       </Container>

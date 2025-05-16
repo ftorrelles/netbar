@@ -19,11 +19,11 @@ const Home = () => {
         <Carousel indicators={false} fade>
           <Carousel.Item>
             <picture>
-              <source media="(min-width: 992px)" srcSet="/newhome1.png" />
-              <source media="(max-width: 991px)" srcSet="/newhome1mobile.png" />
+              <source media="(min-width: 992px)" srcSet="/newhome1.jpg" />
+              <source media="(max-width: 991px)" srcSet="/newhome1mobile.jpg" />
               <img
                 className="d-block w-100"
-                src="/newhome1.png"
+                src="/newhome1.jpg"
                 alt="first slide"
               />
             </picture>
@@ -43,11 +43,11 @@ const Home = () => {
           </Carousel.Item>
           <Carousel.Item>
             <picture>
-              <source media="(min-width: 992px)" srcSet="/newhome2.png" />
-              <source media="(max-width: 991px)" srcSet="/newhome2mobile.png" />
+              <source media="(min-width: 992px)" srcSet="/newhome2.jpg" />
+              <source media="(max-width: 991px)" srcSet="/newhome2mobile.jpg" />
               <img
                 className="d-block w-100"
-                src="/newhome2.png"
+                src="/newhome2.jpg"
                 alt="Second slide"
               />
             </picture>
