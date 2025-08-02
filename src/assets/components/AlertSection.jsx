@@ -14,11 +14,6 @@ const AlertSection = () => {
           conexión. Tambien recuerda reiniciar tu router (no resetear) cada 2
           días durante 2 minutos para liberar memoria y mejorar su rendimiento.
         </p>
-
-        <p>
-          Recuerda que en nuestra oficina solo se aceptan pagos en divisa física
-          o bolívares en efectivo.
-        </p>
       </Alert>
     </div>
   );

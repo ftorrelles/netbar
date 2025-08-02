@@ -1,4 +1,3 @@
-import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import "../styles/draw.css";
 
@@ -9,17 +8,27 @@ const Draw = () => {
         <Row className="justify-content-center mb-5">
           <Col md={8}>
             <h2 className="sorteo-title">
-              ¡Participa en Nuestros Sorteos Mensuales!
+              Como participar en el sorteo trimestral
             </h2>
+            <ul className="sorteo-steps">
+              <li>1. Recomienda al menos 1 nuevo cliente.</li>
+              <li>
+                2. Por cada recomendación, recibiras 2 tickes para participar en
+                el sorteo.
+              </li>
+              <li>
+                3. Ademas, disfruta de un 50% de descuento en el mes actual.
+              </li>
+            </ul>
             <p className="sorteo-description">
-              Cada mes puedes ganar increíbles premios participando en nuestros
-              sorteos exclusivos para clientes. puedes obtener un ticket al
-              pagar tu factura en divisa o tambien puedes obtener otro ticket al
-              referenciar el servicio.
+              ¡¡¡No pierdas la oportunidad de ganar y ahorrar!!!🚀🚀
+            </p>
+            <p className="sorteo-description">
+              Contactanos y comienza a recomendar hoy mismo.
             </p>
           </Col>
         </Row>
-        <Row className="sorteo-grid text-white">
+        {/* <Row className="sorteo-grid text-white">
           <Col xs={12} sm={6} md={3}>
             <div className="sorteo-item">
               <img
@@ -62,7 +71,7 @@ const Draw = () => {
               </p>
             </div>
           </Col>
-        </Row>
+        </Row> */}
       </Container>
     </section>
   );

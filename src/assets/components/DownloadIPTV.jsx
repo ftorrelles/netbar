@@ -1,4 +1,3 @@
-import React from "react";
 import { FaDownload, FaAndroid, FaQuestionCircle } from "react-icons/fa";
 import "../styles/DownloadIPTV.css"; // Asegúrate de crear este archivo CSS
 
@@ -8,7 +7,7 @@ const DownloadIPTV = () => {
     name: "interwireless_TV.apk",
     size: "64.51 MB",
     version: "1.0.0",
-    downloadUrl: "/downloads/interwireless_TV.apk", // Ruta donde estará el archivo
+    downloadUrl: "/downloads/interwirelessTV_mod.apk", // Ruta donde estará el archivo
     lastUpdated: "10/05/2023",
   };
 
