@@ -35,8 +35,12 @@ const Home = () => {
                 </strong>
               </h3>
               <div>
-                <Button as={Link} variant="light" to="/contact">
-                  Quiero informacion
+                <Button
+                  variant="light"
+                  href="https://wa.me/584120626775"
+                  target="_blank"
+                >
+                  Quiero información
                 </Button>
               </div>
             </div>
